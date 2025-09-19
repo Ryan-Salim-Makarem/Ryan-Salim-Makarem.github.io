@@ -59,7 +59,9 @@ article,
 aside,
 footer,
 section {
-  background-color: #00ff0080;
+  /*background-color: #00ff0080;*/
+  /* Fully transparent green */
+  background-color: rgba(0, 255, 0, 0.80);
   padding: 1%;
 }
 
