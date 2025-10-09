@@ -36,3 +36,11 @@ div {
   font-weight: bold;
 }
 
+a {
+  color: green;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
