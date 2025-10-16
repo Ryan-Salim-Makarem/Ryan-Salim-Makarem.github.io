@@ -38,6 +38,7 @@ div {
 
 a {
   color: green;
+  outline: none;
 }
 
 a:hover {
