@@ -25,6 +25,8 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  display: flex;
+  gap: 20px;
 }
 
 nav {
@@ -61,4 +63,12 @@ nav a {
   margin-bottom: 15px;
   margin-left: 0px;
   margin-right: 25px;
+}
+
+article {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
 }
