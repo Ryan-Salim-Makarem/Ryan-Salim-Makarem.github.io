@@ -9,6 +9,7 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  font-family: 'Merriweather';
 }
 
 /* Layout */
@@ -23,13 +24,33 @@ main {
 /* header and footer */
 
 header {
-  border-bottom: 5px solid #a66;
+  border-bottom: 5px solid #aa6666;
 }
 
 footer {
-  border-top: 5px solid #a66;
+  border-top: 5px solid #aa6666;
 }
 
 footer p {
   text-align: center;
 }
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  margin-bottom: 0%;
+  letter-spacing: 0.05em;
+}
+
+p:first-of-type {
+  line-height: 1.7;
+  text-indent: 2rem;
+}
+
