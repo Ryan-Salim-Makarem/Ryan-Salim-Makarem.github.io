@@ -54,3 +54,24 @@ p:first-of-type {
   text-indent: 2rem;
 }
 
+a {
+  color: rosybrown;
+  outline: none;
+}
+
+a:visited {
+  color: #BC8F8F;
+}
+
+a:focus, a:hover {
+  color: #7A4C4C;
+  text-decoration: none;
+}
+
+a[href*="http"] {
+  background: url("external-link-52.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:contain;
+  padding-right: 1.5em;
+}
