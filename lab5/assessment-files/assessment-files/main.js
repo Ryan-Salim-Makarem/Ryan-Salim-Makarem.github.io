@@ -1,3 +1,10 @@
+/*
+Name: Ryan Sami Salim Makarem
+File: main.js
+Date: 8th December 2025
+This files purpose is to solve a number of accessibility issues
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
